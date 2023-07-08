@@ -1,0 +1,75 @@
+What does HTML stand for?
+Hypertext Markup Language
+
+
+What does CSS stand for?
+Cascading Style Sheets
+
+
+Which is the correct way to declare a variable in JavaScript?
+var item = 'milk';
+
+
+What is the first line in HTML?
+<!doctype html>
+
+
+How to set the title of an HTML page?
+<title>Computer Science</title>
+
+
+What does src stand for in the <img> element?
+source
+
+
+What is the id of the following element: <button id="takeGuess">Guess</button>
+takeGuess
+
+
+How do you call this function?
+function startGame() {
+	secret = Math.floor(Math.random() * 100 + 1;
+	guesses = 5;
+	document.getElementById('guess-count').innerHTML = guesses + "Guesses";
+	document.getElementById('response').innerHTML = "";
+}
+
+startGame();
+
+
+What code will create this image in popcode?
+alert('Hello Class');
+
+What will the alert say?
+var num = 10;
+if (num < 10) {
+	alert('I am hungry');
+}
+else if (num > 10) {
+	alert('My dog ate my homework');
+}
+else {
+	alert('Taco Tuesdays');
+}
+
+Taco Tuesdays
+
+
+What code will change the text of an element with the id = "guesses"?
+document.getElementById("guesses").innerHTML="New Text";
+
+
+What HTML goes inside the <body> tags to create the button in this image?
+<button>Click to continue</button>
+
+
+What is the CSS rule used to change the background color blue?
+background-color:blue;
+
+
+What is the CSS rule to change the text color yellow?
+color:yellow;
+
+
+Which one will select all the elements with class="groups"?
+.groups
