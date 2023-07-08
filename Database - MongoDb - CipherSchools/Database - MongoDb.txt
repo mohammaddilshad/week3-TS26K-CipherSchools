@@ -1,0 +1,18 @@
+SOAP Architecture - GET - XML based <user name="J" age=12>
+REST Architecture - JSON {"name":"J", "age":12}
+
+
+REST - Representational State Transfer
+API - Application Programming Interface
+
+
+HTTP:
+GET - idempotent method
+POST - non-idempotent
+PUT - idempotent
+DELETE - idempotent
+
+
+save -> { data } -> save to db { age: 13 }
+delete user -> deletes user from db
+delete the same user -> 404

@@ -1,0 +1,29 @@
+Q) Props are _________ into other components.
+=> methods
+
+Q) Babel is a _________.
+=> Both Compiler and Transpiler
+
+Q) ________ component declared as a function that has no state and returns the same markup given the same props.
+=> stateless
+
+Q) Predict the two ways that data gets handled in React.
+=> state & props
+
+Q) To achieve dynamic UI updates, which of the following needs to be updated?
+=> state
+
+Q) ________ is used to keep the value of components unique?
+=> Key
+
+Q) ________ allows us to add pseudo class selectors and media queries to our inline-styles in React.
+=> Radium
+
+Q) Predict which of the following component manages any errors that Person component might throw
+=> Error Boundary
+
+Q) Examine which of the folllowing API is a must for every ReactJS component?
+=> renderComponent
+
+Q) React Lifecycle method static getDerivedStateFromProps(props, state) is called when ________.
+=> Component is created for the first time, State of the component is updated
